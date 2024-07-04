@@ -1,0 +1,98 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./arquivos/bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+}
+
+#info {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#info img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  color: #7d7987;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  color: #7d7987;
+
+  font-size: 14px;
+  line-height: 28px;
+
+  margin-bottom: 100px;
+}
+
+span,
+a {
+  color: #c64132;
+  font-weight: bold;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+
+  margin: 0 auto 12px;
+
+  border: 1px #eceff2 dashed;
+}
+
+#logo {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+}
+
+#botao_modo {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    background-color: #c64132;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* DARKMODE */
+body.dark-mode {
+  background-color: #121212d2;
+  color: #e0e0e0;
+}
+
+body.dark-mode h1 {
+  color: #e0e0e0;
+}
+
+body.dark-mode p {
+  color: #e0e0e0;
+}
+
+body.dark-mode span,
+body.dark-mode a {
+  color: #bb86fc;
+}
